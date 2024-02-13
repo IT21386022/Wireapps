@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header a{
+  text-decoration: none;
+}
+
+.header p{
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  color: #000;
+}
+
+hr{
+  border: 2px solid #D9D9D9;
+}
+
+.subheader p{
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.gridlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  /* width: calc(20% - 10px); */
+  width: auto;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 40px;
+  box-shadow: 10px 15px 20px 0px #00000026;
+  margin-bottom: 40px;
+  /* border: 2px solid #000; */
+}
+
+.cardheader p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardimage img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.cardcocontainer{
+  height: 140px;
+  width: 250px;
+  background: #2BD9AF;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.cardprice p{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #0E42FD;
+  margin: auto;
+}
+
+.cardtext p{
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+}
+
+.card1{
+  /* width: calc(20% - 10px); */
+  width: auto;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 40px;
+  box-shadow: 10px 15px 20px 0px #00000026;
+  margin-bottom: 40px;
+}
+
+.cardheader1 p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardimage1 img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.cardcocontainer1{
+  height: 140px;
+  width: 250px;
+  background: #FF5E84;
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.cardprice1 p{
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #0E42FD;
+  margin: auto;
+}
+
+.cardtext1 p{
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+}
+
+.gridlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add space between the cards */
+}
+
+a{
+  text-decoration: none;
+}
+
+.greencard {
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background: #2BD9AF; /* for greencard */
+  box-shadow: 10px 15px 20px 0px #00000026;
+  margin-bottom: 20px;
+}
+
+.pinkcard {
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background: #FF5E84; /* for pinkcard */
+  box-shadow: 10px 15px 20px 0px #00000026;
+  margin-bottom: 20px;
+}
+
+.greencardtext {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
